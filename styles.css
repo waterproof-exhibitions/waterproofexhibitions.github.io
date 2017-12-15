@@ -1,0 +1,108 @@
+@font-face { font-family: Waterproof-condense; src: url('Waterproof-condense.otf');}
+@font-face { font-family: Waterproof-extend; src: url('Waterproof-extend.otf'); }
+@font-face { font-family: Waterproof-regular; src: url('Waterproof-regular.otf'); }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  position: fixed;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+#nav {
+  //font-family: "Times New Roman", Times, serif;
+  font-family: Waterproof-regular, san-serif;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: auto;
+  padding-top: 20px;
+  position: fixed;
+  background-color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  left: 60%;
+  height: 100%;
+  width: 174px;
+  border-left: 1px double grey;
+  border-right: 1px double grey;
+}
+
+#nav a{
+  text-decoration: none;
+  color: RGB(0,0,0);
+}
+
+#nav a:link, a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#main-left {
+  margin: 0 0 0 0;
+  width: 60%;
+  position: absolute;
+  overflow: auto;
+  float: left;
+  height: 100%;
+}
+
+#main-right{
+  margin: 0 0 0 0;
+  width: calc(100% - (60% + 174px));
+  left: calc(60% + 174px);
+  position: absolute;
+  overflow: auto;
+  float: right;
+  height: 100%;
+}
+
+h1 {
+  font-family: Waterproof-condense;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Waterproof-extend;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+div {
+  display: block;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+}
+
+body {
+  //font-family: Arial, sans-serif;
+  font-family: Waterproof-regular;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+iframe {
+  width: 100%;
+  overflow: scroll;
+  border: none;
+}
+
+.paragraph-text p, .paragraph-text h1, .paragraph-text h2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
