@@ -70,6 +70,14 @@ html{
   height: 100%;
 }
 
+#credit {
+  font-size: 12px;
+  bottom: 10px;
+  align: right;
+  position: fixed;
+  line-height: 14px;
+}
+
 h1 {
   font-family: Waterproof-condense;
   font-size: 12px;
@@ -93,7 +101,7 @@ body {
   //font-family: Arial, sans-serif;
   font-family: Waterproof-regular;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 20px;
 }
 
 iframe {
