@@ -126,7 +126,6 @@ iframe {
 #exhibitions a{
   text-decoration: underline;
   color: black;
-
 }
 
 #exhibitions a:link, a:visited {
@@ -157,7 +156,9 @@ iframe {
 #credit {
   font-size: 12px;
   bottom: 10px;
-  align: right;
+  text-align: right;
+  float: right;
+  width: 150px;
   position: fixed;
   line-height: 14px;
 }
