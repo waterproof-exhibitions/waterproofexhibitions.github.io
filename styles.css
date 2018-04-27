@@ -46,29 +46,29 @@ img {
 #nav a{
   text-decoration: none;
   color: black;
-  border-bottom: solid 0.5px #000;
-  display: inline;
-  padding-bottom: 1px;
+
 }
 
 #nav a:link, a:visited {
   text-decoration: none;
   color: black;
-  border-bottom: solid 0.5px #000;
-  display: inline;
-  padding-bottom: 1px;
+}
+
+#nav a:active {
+  text-decoration: underline;
+  color: black;
+
 }
 
 #nav a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: black;
 
-  border-top: solid 0.5px #000;
-  display: inline;
-  padding-top: 1px;
-
+  /*
   border-bottom: solid 0.5px #000;
   display: inline;
   padding-bottom: 1px;
+  */
 }
 
 #main-left {
@@ -83,29 +83,22 @@ img {
 #exhibitions a{
   text-decoration: none;
   color: black;
-  border-bottom: solid 1px #000;
-  display: inline;
-  padding-bottom: 1px;
+
 }
 
 #exhibitions a:link, a:visited {
   text-decoration: none;
   color: black;
-  border-bottom: solid 1px #000;
-  display: inline;
-  padding-bottom: 1px;
 }
 
 #exhibitions a:hover {
-  text-decoration: none;
-
-  border-top: solid 1px #000;
-  display: inline;
-  padding-top: 3px;
-
+  text-decoration: underline;
+  color: black;
+  /*
   border-bottom: solid 1px #000;
   display: inline;
   padding-bottom: 1px;
+  */
 }
 
 #main-right{
@@ -180,16 +173,20 @@ hr {
   height: 1px;
 }
 
+#artists-list {
+  font-size: 19px;
+}
+
 @media (max-width: 768px) {
   #nav{
     left: 0;
     padding-left: 6px;
     padding-right: 6px;
-    width: 175px;
+    width: 165px;
   }
   #main-left {
-    left: 175px;
-    width: calc(100% - (175px));
+    left: 165px;
+    width: calc(100% - (165px));
   }
   #main-right {
     display: none;
