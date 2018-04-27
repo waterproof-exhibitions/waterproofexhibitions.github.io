@@ -73,12 +73,17 @@ img {
 
 #main-left {
   margin: 0 0 0 0;
-  position: absolute;
+  position: fixed;
   float: left;
   height: 100%;
   width: 60%;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
+}
+
+#main-left iframe {
+  height: 100%;
+  width: 100%;
 }
 
 #exhibitions a{
