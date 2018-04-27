@@ -85,7 +85,7 @@ img {
   overflow-y: scroll;
 }
 
-#main-left iframe {
+iframe {
   height: 100%;
   width: 100%;
   max-width: 100%;
@@ -199,6 +199,7 @@ hr {
     width: calc(100% - (125px));
   }
   */
+
   #nav-small {
     height: 120px;
     padding-top: 20px;
@@ -208,10 +209,29 @@ hr {
   }
 
   #main-left {
+    margin: 0 0 0 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
     left: 0;
     top: 120px;
+    float: left;
     width: 100%;
+    display: inline-block;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
   }
+
+  #main-left iframe {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    -webkit-overflow-scrolling: touch;
+    overflow-y: scroll;
+    border: none;
+    display: block;
+  }
+
   #main-right {
     display: none;
   }
