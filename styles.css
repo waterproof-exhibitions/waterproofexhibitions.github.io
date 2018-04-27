@@ -74,9 +74,13 @@ img {
 #main-left {
   margin: 0 0 0 0;
   position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
   float: left;
-  height: 100%;
   width: 60%;
+  display: inline-block;
   -webkit-overflow-scrolling: touch;
   overflow-y: scroll;
 }
@@ -159,7 +163,7 @@ body {
 
 iframe {
   width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   border: none;
 }
 
@@ -206,6 +210,7 @@ hr {
 
   #main-left {
     left: 0;
+    top: 120px;
     width: 100%;
   }
   #main-right {
