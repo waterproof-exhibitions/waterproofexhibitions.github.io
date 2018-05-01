@@ -238,12 +238,22 @@ ul {
   padding: 0;
 }
 
+
 .coming_soon {
-  border: 0.1px solid grey;
+  border: 0.1px solid white;
   width: 320px;
   height: 320px;
-  text-align: center;
-  line-height: 200px;
+}
+
+.coming_soon hr {
+  background-color: grey;
+  height: 0.5px;
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin-top: 160px;
 }
 
 @media (max-width: 768px) {
