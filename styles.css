@@ -123,17 +123,17 @@ iframe {
   display: block;
 }
 
-#exhibitions a{
+a{
   text-decoration: underline;
   color: black;
 }
 
-#exhibitions a:link, a:visited {
+a:link, a:visited {
   text-decoration: underline;
   color: black;
 }
 
-#exhibitions a:hover {
+a:hover {
   text-decoration: underline;
   color: black;
   /*
@@ -207,8 +207,8 @@ hr {
   height: 1px;
 }
 
-#artists-list {
-  font-size: 19px;
+ul {
+  list-style-type: none;
 }
 
 #nav-small {
@@ -220,10 +220,36 @@ hr {
   margin: 10px;
 }
 
+.book_image {
+  height: 320px;
+}
+
+.book_image img{
+  max-width: 320px;
+  vertical-align: middle;
+}
+
+.book_image_big{
+  height: 450px;
+  width: 450px;
+}
+
+.book-list p{
+  padding: 0;
+}
+
+.coming_soon {
+  border: 0.1px solid grey;
+  width: 320px;
+  height: 320px;
+  text-align: center;
+  line-height: 200px;
+}
+
 @media (max-width: 768px) {
   #nav-small {
     height: 105px;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-left: 15px;
     padding-right: 15px;
     border-bottom: 1px double grey;
@@ -262,11 +288,11 @@ hr {
   #nav-small {
     display: block;
   }
+
   #menu-small {
     width: 250px;
     float: right;
     line-height: 32px;
-    margin-top: 5px;
   }
   #menu-small-1 {
     display: inline-block;
