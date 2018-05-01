@@ -26,6 +26,7 @@ img {
 
 #nav-big {
   //font-family: "Times New Roman", Times, serif;
+  //font-family: Arial, sans-serif;
   font-family: Waterproof-regular, san-serif;
   font-size: 14px;
   float: left;
@@ -164,18 +165,21 @@ a:hover {
 }
 
 h1 {
+  //font-family: Arial, sans-serif;
   font-family: Waterproof-condense;
   font-size: 12px;
   font-weight: normal;
 }
 
 h2 {
+  //font-family: Arial, sans-serif;
   font-family: Waterproof-extend;
   font-size: 12px;
   font-weight: normal;
 }
 
 h3 {
+  //font-family: Arial, sans-serif;
   font-family: Waterproof-regular;
   font-size: 12px;
   font-weight: normal;
