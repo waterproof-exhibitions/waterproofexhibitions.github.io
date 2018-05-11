@@ -197,9 +197,10 @@ h3 {
 
 p {
   //font-family: Arial, sans-serif;
+  //font-family: Arial Narrow,Arial,sans-serif;
   font-family: WorkSans-Light;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 20px;
 }
 
 body {
